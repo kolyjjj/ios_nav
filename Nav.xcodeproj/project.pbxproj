@@ -23,6 +23,15 @@
 		D1A55B841686A26000CC5C25 /* NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B831686A26000CC5C25 /* NavTests.m */; };
 		D1A55B931686A39000CC5C25 /* BIDFirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */; };
 		D1A55B971686A55A00CC5C25 /* BIDSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B961686A55A00CC5C25 /* BIDSecondLevelViewController.m */; };
+		D1A55BA11686ABBA00CC5C25 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B991686ABBA00CC5C25 /* button_down.png */; };
+		D1A55BA21686ABBA00CC5C25 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B9A1686ABBA00CC5C25 /* button_up.png */; };
+		D1A55BA31686ABBA00CC5C25 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B9B1686ABBA00CC5C25 /* checkmarkControllerIcon.png */; };
+		D1A55BA41686ABBA00CC5C25 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B9C1686ABBA00CC5C25 /* deleteMeIcon.png */; };
+		D1A55BA51686ABBA00CC5C25 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B9D1686ABBA00CC5C25 /* detailEditIcon.png */; };
+		D1A55BA61686ABBA00CC5C25 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B9E1686ABBA00CC5C25 /* disclosureButtonControllerIcon.png */; };
+		D1A55BA71686ABBA00CC5C25 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B9F1686ABBA00CC5C25 /* moveMeIcon.png */; };
+		D1A55BA81686ABBA00CC5C25 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55BA01686ABBA00CC5C25 /* rowControlsIcon.png */; };
+		D1A55BAB1686AC0600CC5C25 /* BIDDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55BAA1686AC0600CC5C25 /* BIDDisclosureButtonController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +68,16 @@
 		D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFirstLevelController.m; sourceTree = "<group>"; };
 		D1A55B951686A55A00CC5C25 /* BIDSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondLevelViewController.h; sourceTree = "<group>"; };
 		D1A55B961686A55A00CC5C25 /* BIDSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondLevelViewController.m; sourceTree = "<group>"; };
+		D1A55B991686ABBA00CC5C25 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		D1A55B9A1686ABBA00CC5C25 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		D1A55B9B1686ABBA00CC5C25 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		D1A55B9C1686ABBA00CC5C25 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteMeIcon.png; sourceTree = "<group>"; };
+		D1A55B9D1686ABBA00CC5C25 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
+		D1A55B9E1686ABBA00CC5C25 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
+		D1A55B9F1686ABBA00CC5C25 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
+		D1A55BA01686ABBA00CC5C25 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
+		D1A55BA91686AC0600CC5C25 /* BIDDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButtonController.h; sourceTree = "<group>"; };
+		D1A55BAA1686AC0600CC5C25 /* BIDDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +137,7 @@
 		D1A55B5E1686A25F00CC5C25 /* Nav */ = {
 			isa = PBXGroup;
 			children = (
+				D1A55B981686ABBA00CC5C25 /* Images */,
 				D1A55B671686A25F00CC5C25 /* BIDAppDelegate.h */,
 				D1A55B681686A25F00CC5C25 /* BIDAppDelegate.m */,
 				D1A55B5F1686A25F00CC5C25 /* Supporting Files */,
@@ -125,6 +145,8 @@
 				D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */,
 				D1A55B951686A55A00CC5C25 /* BIDSecondLevelViewController.h */,
 				D1A55B961686A55A00CC5C25 /* BIDSecondLevelViewController.m */,
+				D1A55BA91686AC0600CC5C25 /* BIDDisclosureButtonController.h */,
+				D1A55BAA1686AC0600CC5C25 /* BIDDisclosureButtonController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -160,6 +182,21 @@
 				D1A55B7F1686A26000CC5C25 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1A55B981686ABBA00CC5C25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D1A55B991686ABBA00CC5C25 /* button_down.png */,
+				D1A55B9A1686ABBA00CC5C25 /* button_up.png */,
+				D1A55B9B1686ABBA00CC5C25 /* checkmarkControllerIcon.png */,
+				D1A55B9C1686ABBA00CC5C25 /* deleteMeIcon.png */,
+				D1A55B9D1686ABBA00CC5C25 /* detailEditIcon.png */,
+				D1A55B9E1686ABBA00CC5C25 /* disclosureButtonControllerIcon.png */,
+				D1A55B9F1686ABBA00CC5C25 /* moveMeIcon.png */,
+				D1A55BA01686ABBA00CC5C25 /* rowControlsIcon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +275,14 @@
 				D1A55B6B1686A25F00CC5C25 /* Default.png in Resources */,
 				D1A55B6D1686A25F00CC5C25 /* Default@2x.png in Resources */,
 				D1A55B6F1686A25F00CC5C25 /* Default-568h@2x.png in Resources */,
+				D1A55BA11686ABBA00CC5C25 /* button_down.png in Resources */,
+				D1A55BA21686ABBA00CC5C25 /* button_up.png in Resources */,
+				D1A55BA31686ABBA00CC5C25 /* checkmarkControllerIcon.png in Resources */,
+				D1A55BA41686ABBA00CC5C25 /* deleteMeIcon.png in Resources */,
+				D1A55BA51686ABBA00CC5C25 /* detailEditIcon.png in Resources */,
+				D1A55BA61686ABBA00CC5C25 /* disclosureButtonControllerIcon.png in Resources */,
+				D1A55BA71686ABBA00CC5C25 /* moveMeIcon.png in Resources */,
+				D1A55BA81686ABBA00CC5C25 /* rowControlsIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +321,7 @@
 				D1A55B691686A25F00CC5C25 /* BIDAppDelegate.m in Sources */,
 				D1A55B931686A39000CC5C25 /* BIDFirstLevelController.m in Sources */,
 				D1A55B971686A55A00CC5C25 /* BIDSecondLevelViewController.m in Sources */,
+				D1A55BAB1686AC0600CC5C25 /* BIDDisclosureButtonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
