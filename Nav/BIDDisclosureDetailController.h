@@ -10,4 +10,8 @@
 
 @interface BIDDisclosureDetailController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *label;
+//why use copy?
+@property (copy, nonatomic) NSString *message;
+
 @end

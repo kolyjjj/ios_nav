@@ -29,6 +29,19 @@
 	// Do any additional setup after loading the view.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.label.text = self.message;
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidUnload
+{
+    self.label = nil;
+    self.message = nil;
+    [super viewDidUnload];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
