@@ -33,6 +33,7 @@
 		D1A55BA81686ABBA00CC5C25 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A55BA01686ABBA00CC5C25 /* rowControlsIcon.png */; };
 		D1A55BAB1686AC0600CC5C25 /* BIDDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55BAA1686AC0600CC5C25 /* BIDDisclosureButtonController.m */; };
 		D1A55BAE1686ACBF00CC5C25 /* BIDDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55BAD1686ACBF00CC5C25 /* BIDDisclosureDetailController.m */; };
+		D1A55BB01686AE5500CC5C25 /* BIDDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A55BAF1686AE5500CC5C25 /* BIDDisclosureDetail.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		D1A55BAA1686AC0600CC5C25 /* BIDDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonController.m; sourceTree = "<group>"; };
 		D1A55BAC1686ACBF00CC5C25 /* BIDDisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailController.h; sourceTree = "<group>"; };
 		D1A55BAD1686ACBF00CC5C25 /* BIDDisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailController.m; sourceTree = "<group>"; };
+		D1A55BAF1686AE5500CC5C25 /* BIDDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDisclosureDetail.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				D1A55BAA1686AC0600CC5C25 /* BIDDisclosureButtonController.m */,
 				D1A55BAC1686ACBF00CC5C25 /* BIDDisclosureDetailController.h */,
 				D1A55BAD1686ACBF00CC5C25 /* BIDDisclosureDetailController.m */,
+				D1A55BAF1686AE5500CC5C25 /* BIDDisclosureDetail.xib */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				D1A55BA61686ABBA00CC5C25 /* disclosureButtonControllerIcon.png in Resources */,
 				D1A55BA71686ABBA00CC5C25 /* moveMeIcon.png in Resources */,
 				D1A55BA81686ABBA00CC5C25 /* rowControlsIcon.png in Resources */,
+				D1A55BB01686AE5500CC5C25 /* BIDDisclosureDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
