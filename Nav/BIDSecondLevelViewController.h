@@ -10,4 +10,6 @@
 
 @interface BIDSecondLevelViewController : UITableViewController
 
+@property (strong, nonatomic) UIImage *rowImage;
+
 @end

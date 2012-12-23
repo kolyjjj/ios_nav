@@ -22,6 +22,7 @@
 		D1A55B811686A26000CC5C25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B7F1686A26000CC5C25 /* InfoPlist.strings */; };
 		D1A55B841686A26000CC5C25 /* NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B831686A26000CC5C25 /* NavTests.m */; };
 		D1A55B931686A39000CC5C25 /* BIDFirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */; };
+		D1A55B971686A55A00CC5C25 /* BIDSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B961686A55A00CC5C25 /* BIDSecondLevelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		D1A55B831686A26000CC5C25 /* NavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTests.m; sourceTree = "<group>"; };
 		D1A55B901686A39000CC5C25 /* BIDFirstLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDFirstLevelController.h; sourceTree = "<group>"; };
 		D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFirstLevelController.m; sourceTree = "<group>"; };
+		D1A55B951686A55A00CC5C25 /* BIDSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondLevelViewController.h; sourceTree = "<group>"; };
+		D1A55B961686A55A00CC5C25 /* BIDSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondLevelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				D1A55B5F1686A25F00CC5C25 /* Supporting Files */,
 				D1A55B901686A39000CC5C25 /* BIDFirstLevelController.h */,
 				D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */,
+				D1A55B951686A55A00CC5C25 /* BIDSecondLevelViewController.h */,
+				D1A55B961686A55A00CC5C25 /* BIDSecondLevelViewController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				D1A55B651686A25F00CC5C25 /* main.m in Sources */,
 				D1A55B691686A25F00CC5C25 /* BIDAppDelegate.m in Sources */,
 				D1A55B931686A39000CC5C25 /* BIDFirstLevelController.m in Sources */,
+				D1A55B971686A55A00CC5C25 /* BIDSecondLevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
