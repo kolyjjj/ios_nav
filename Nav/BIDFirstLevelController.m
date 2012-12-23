@@ -7,6 +7,7 @@
 //
 
 #import "BIDFirstLevelController.h"
+#import "BIDSecondLevelViewController.h"
 
 @interface BIDFirstLevelController ()
 
@@ -26,12 +27,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"First Level";
+    NSMutableArray *array = [[NSMutableArray alloc]init];
+    self.controllers = array;
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+- (void)viewDidUnload{
+    [super viewDidUnload];
+    self.controllers = nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,19 +62,25 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.controllers count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    static NSString *FirstLevelCell = @"FirstLevelCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:FirstLevelCell];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:FirstLevelCell];
     }
     
-    // Configure the cell...
+    //retrieve the element in the array
+    NSUInteger row = [indexPath row];
+    BIDSecondLevelViewController *controller = [self.controllers objectAtIndex:row];
     
+    //configure the cell
+    cell.textLabel.text = controller.title;
+    cell.imageView.image = controller.rowImage;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -119,6 +134,10 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+    
+    NSUInteger row = [indexPath row];
+    BIDSecondLevelViewController *nextController = [self.controllers objectAtIndex:row];
+    [self.navigationController pushViewController:nextController animated:YES];
 }
 
 @end
