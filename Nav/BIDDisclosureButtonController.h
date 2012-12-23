@@ -10,4 +10,6 @@
 
 @interface BIDDisclosureButtonController : BIDSecondLevelViewController
 
+@property (strong, nonatomic) NSArray *list;
+
 @end
