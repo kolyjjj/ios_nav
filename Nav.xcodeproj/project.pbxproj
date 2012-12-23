@@ -22,7 +22,6 @@
 		D1A55B811686A26000CC5C25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B7F1686A26000CC5C25 /* InfoPlist.strings */; };
 		D1A55B841686A26000CC5C25 /* NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B831686A26000CC5C25 /* NavTests.m */; };
 		D1A55B931686A39000CC5C25 /* BIDFirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */; };
-		D1A55B941686A39000CC5C25 /* BIDFirstLevelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A55B921686A39000CC5C25 /* BIDFirstLevelController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		D1A55B831686A26000CC5C25 /* NavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTests.m; sourceTree = "<group>"; };
 		D1A55B901686A39000CC5C25 /* BIDFirstLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDFirstLevelController.h; sourceTree = "<group>"; };
 		D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFirstLevelController.m; sourceTree = "<group>"; };
-		D1A55B921686A39000CC5C25 /* BIDFirstLevelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDFirstLevelController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 				D1A55B5F1686A25F00CC5C25 /* Supporting Files */,
 				D1A55B901686A39000CC5C25 /* BIDFirstLevelController.h */,
 				D1A55B911686A39000CC5C25 /* BIDFirstLevelController.m */,
-				D1A55B921686A39000CC5C25 /* BIDFirstLevelController.xib */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 				D1A55B6B1686A25F00CC5C25 /* Default.png in Resources */,
 				D1A55B6D1686A25F00CC5C25 /* Default@2x.png in Resources */,
 				D1A55B6F1686A25F00CC5C25 /* Default-568h@2x.png in Resources */,
-				D1A55B941686A39000CC5C25 /* BIDFirstLevelController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

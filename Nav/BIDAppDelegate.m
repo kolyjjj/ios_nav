@@ -16,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    //no need of nib file here
     BIDFirstLevelController *first = [[BIDFirstLevelController alloc]initWithStyle:UITableViewStylePlain];
     self.navController = [[UINavigationController alloc]initWithRootViewController:first];
     [self.window addSubview:self.navController.view];
