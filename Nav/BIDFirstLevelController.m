@@ -8,6 +8,7 @@
 
 #import "BIDFirstLevelController.h"
 #import "BIDSecondLevelViewController.h"
+#import "BIDDisclosureButtonController.h"
 
 @interface BIDFirstLevelController ()
 
@@ -29,8 +30,14 @@
     [super viewDidLoad];
     self.title = @"First Level";
     NSMutableArray *array = [[NSMutableArray alloc]init];
+    
+    
+    //Disclosure button
+    BIDDisclosureButtonController *disclosureButtonController = [[BIDDisclosureButtonController alloc]initWithStyle:UITableViewStylePlain];
+    disclosureButtonController.title = @"Disclosure buttons";
+    disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon"];
+    [array addObject:disclosureButtonController];
     self.controllers = array;
-
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -53,14 +60,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
     return [self.controllers count];
 }
